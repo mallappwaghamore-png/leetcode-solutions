@@ -3,7 +3,7 @@
 
 class Solution:
     def firstBadVersion(self, n: int) -> int:
-        left=0
+        left=1
         right=n
         while left<right:
             mid=(left+right)//2
